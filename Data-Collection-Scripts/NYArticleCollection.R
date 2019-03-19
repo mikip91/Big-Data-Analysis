@@ -15,10 +15,10 @@ NYDataframe <- subset(NYDataframe, select = -c(multimedia, keywords, byline.pers
 NYDataframe = NYDataframe[!duplicated(NYDataframe$`_id`),]
 NYDataframe = NYDataframe[!duplicated(NYDataframe$snippet),]
 NYDataframe = NYDataframe[!duplicated(NYDataframe$word_count),]
-write.csv(NYDataframe, file = "D:/MS/2ndSem/DIC/Lab2/ny/NewArticles.csv")
+write.csv(NYDataframe, file = "D:/MS/2ndSem/DIC/Lab2/NewyorkTimes-Data/NewArticles.csv")
 
 # Reading Articles
-Articles <- read.csv(file="D:/MS/2ndSem/DIC/Lab2/ny/OldArticles.csv", header=TRUE, sep=",")
+Articles <- read.csv(file="D:/MS/2ndSem/DIC/Lab2/NewyorkTimes-Data/OldArticles.csv", header=TRUE, sep=",")
 Articles <- subset(Articles, select = -c(X))
 names(Articles)[11] <- "_id"
 
@@ -27,6 +27,6 @@ Articles <- rbind(Articles,NYDataframe)
 Articles = Articles[!duplicated(Articles$`_id`),]
 Articles = Articles[!duplicated(Articles$snippet),]
 Articles = Articles[!duplicated(Articles$word_count),]
-write.csv(Articles, file = "D:/MS/2ndSem/DIC/Lab2/ny/OldArticles.csv")
+write.csv(Articles, file = "D:/MS/2ndSem/DIC/Lab2/NewyorkTimes-Data/OldArticles.csv")
 
 
