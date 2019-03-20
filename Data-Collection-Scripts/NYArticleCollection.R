@@ -22,7 +22,7 @@ Articles <- read.csv(file="D:/MS/2ndSem/DIC/Lab2/NewyorkTimes-Data/OldArticles.c
 Articles <- subset(Articles, select = -c(X))
 names(Articles)[11] <- "_id"
 
-# Writing Articles again
+# Writing consolidated Articles again
 Articles <- rbind(Articles,NYDataframe)
 Articles = Articles[!duplicated(Articles$`_id`),]
 Articles = Articles[!duplicated(Articles$snippet),]
