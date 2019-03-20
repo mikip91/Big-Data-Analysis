@@ -1,6 +1,4 @@
 install.packages('Rcrawler')
-install.packages("XML")
-library(XML)
 library(Rcrawler)
 # Reading articles
 CollectedArticles <- read.csv(file="D:/MS/2ndSem/DIC/Lab2/NewyorkTimes-Data/OldArticles.csv", header=TRUE, sep=",")

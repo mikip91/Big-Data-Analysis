@@ -12,8 +12,8 @@ setup_twitter_oauth("JzihmlwTcFf4cxWJsZNWYSGPm",
                     "GVIkI1heo1CDFNhI97u97l0d35tShORR52CrlzTsoCsrs")
 # Collecting tweets
 Start_date <- "2019-03-01"
-End_date <- "2019-03-19"
-tweets <- searchTwitter('Trump Administration', n=100, lang="en", since=Start_date, until=End_date)
+End_date <- "2019-03-20"
+tweets <- searchTwitter('Trump Administration', n=18000, lang="en", since=Start_date, until=End_date)
 tweets <- twListToDF(tweets)
 write.csv(tweets, file = "D:/MS/2ndSem/DIC/Lab2/Twitter-Data/NewTweets.csv")
 

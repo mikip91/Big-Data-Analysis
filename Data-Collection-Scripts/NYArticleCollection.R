@@ -2,8 +2,8 @@
 # Topic - Trump Administration
 install.packages("rtimes")
 library(rtimes)
-Start_Date <- "20190319"
-End_Date <- "20190319"
+Start_Date <- "20190311"
+End_Date <- "20190313"
 
 # Setting up authentication 
 Sys.setenv(NYTIMES_AS_KEY = "q54vgEeqyyr2xPubZrlsK0PBkAyDzJN1")
