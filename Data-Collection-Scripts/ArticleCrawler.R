@@ -1,7 +1,8 @@
 install.packages('Rcrawler')
 library(Rcrawler)
+library(stringr)
 # Reading articles
-CollectedArticles <- read.csv(file="D:/MS/2ndSem/DIC/Lab2/NewyorkTimes-Data/OldArticles.csv", header=TRUE, sep=",")
+CollectedArticles <- read.csv(file="D:/MS/2ndSem/DIC/Lab2/newsData/Oldgovt.csv", header=TRUE, sep=",")
 CollectedArticles <- subset(CollectedArticles, select = -c(X))
 CollectedUrls = CollectedArticles$web_url
 
@@ -10,17 +11,20 @@ for(i in c(1:nrow(CollectedArticles)))
 {
   Data<-ContentScraper(Url = toString(CollectedUrls[i]),
                        CssPatterns =c(".css-1i2y565"))
-  Data<- str_replace_all(Data, "[^[:alnum:]]", " ")
-  if(i>1){
-    content <- rbind(content, Data)
-  }else
-  {
-    content<- Data
+  if(!is.na(Data)){
+    Data<- str_replace_all(Data, "[^[:alnum:]]", " ")
+    if(i>1){
+      content <- rbind(content, Data)
+    }else
+    {
+      content<- Data
+    }
   }
 }
-content <- content[, 1]
+content <- paste(content, "\n")
+#content <- content[, 1]
 content <- data.frame(content)
 cols <- c("text")
 colnames(content) <- cols
 content <-data.frame(content)
-write.table(content$text, file = "D:/MS/2ndSem/DIC/Lab2/NewyorkTimes-Data/articles.txt", sep="\t", col.names = F, row.names = F, quote = F) 
+write.table(content$text, file = "D:/MS/2ndSem/DIC/Lab2/newsData/govt.txt", sep="\t", col.names = F, row.names = F, quote = F) 
