@@ -31,8 +31,6 @@ for line in sys.stdin:
 
     for word in word_list:
         final_list.append(word)
-    # if (word == "test"):
-    #     break;
 final_list.sort()
 
     # increase counters

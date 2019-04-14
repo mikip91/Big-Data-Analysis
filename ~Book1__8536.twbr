@@ -1,0 +1,783 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0213.2333                               -->
+<workbook source-build='2019.1.0 (20191.19.0213.2333)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+    <ZoneFriendlyName />
+  </document-format-change-manifest>
+  <repository-location id='Book1_15549367985350' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='part-00000 Extract' inline='true' name='federated.0jr7rlz077sngo10jquh908pijqa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='part-00000' name='hyper.0w4kup50li4yib13gddfp0enntp1'>
+            <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/Docker/dockerMR/output/part-00000.hyper' default-settings='yes' port='0' sslmode='' username='tableau_internal_user' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='hyper.0w4kup50li4yib13gddfp0enntp1' name='Extract' table='[Extract].[Extract]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <family>part-00000</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>87</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <family>part-00000</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>18</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.473862' measure-ordering='alphabetic' measure-percentage='0.526138' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='part-00000' inline='true' name='federated.0pjnk6u1epq1rg14ba3pq107lwzg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='part-00000' name='textscan.0qj91v01msainn16hgnrh0mufdyk'>
+            <connection class='textscan' directory='D:/Docker/dockerMR/output' filename='part-00000' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0qj91v01msainn16hgnrh0mufdyk' name='part-00000' table='[part-00000]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_US' separator='&#9;'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='F2' ordinal='1' />
+          </columns>
+        </relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[part-00000]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='quote-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[part-00000]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[part-00000]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/Docker/dockerMR/output/part-00000.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/09/2019 05:28:11 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='part-00000' increment-value='%null%' refresh-type='create' rows-inserted='87' timestamp-start='2019-04-09 05:28:11.185' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>part-00000</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>87</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F2</remote-alias>
+              <ordinal>1</ordinal>
+              <family>part-00000</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.475962' measure-ordering='alphabetic' measure-percentage='0.524038' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:F1:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;\&quot;&apos;My&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;\&quot;All&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;\&quot;Back,&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;\&quot;Can&apos;t&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;\&quot;&apos;Are&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;\&quot;Afraid&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;\&quot;ART.\&quot;&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;\&quot;Brave&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;\&quot;Defects,\&quot;&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;\&quot;&apos;Little&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;\&quot;Ah,&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;\&quot;As&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;\&quot;But,\&quot;&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;\&quot;Did&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;\&quot;&apos;Silence!&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;\&quot;An&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;\&quot;Because,\&quot;&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;\&quot;Charcot&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;\&quot;&apos;Never&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;\&quot;Already?\&quot;&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;\&quot;Be&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;\&quot;Certainly&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;\&quot;&apos;Lucy,&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;\&quot;Aha!&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;\&quot;Ask&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;\&quot;By&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;\&quot;Do&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;\&quot;About&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;\&quot;Arabian&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;\&quot;Blue\&quot;&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;\&quot;Count&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;\&quot;&apos;E&apos;s&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;\&quot;Again&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;\&quot;Arthur&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;\&quot;Bring&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;\&quot;DEMETER.\&quot;&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;\&quot;&apos;Yes,&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;\&quot;Answer&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;\&quot;Bloofer&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;\&quot;Come!\&quot;&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;\&quot;&apos;Maybe&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;\&quot;Aha!\&quot;&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;\&quot;At&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;\&quot;Call&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;\&quot;DRACULA.\&quot;&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;\&quot;&apos;That&apos;s&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;\&quot;An&apos;&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;\&quot;Before&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;\&quot;Come&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;\&quot;&apos;Tyke&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;\&quot;And&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;\&quot;Believe&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;\&quot;Come,&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;\&quot;A&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;\&quot;Any&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;\&quot;Blow&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;\&quot;Come.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;\&quot;ABRAHAM&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;\&quot;Are&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;\&quot;Bother&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;\&quot;Dear&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;\&quot;&apos;No&apos;&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;\&quot;Am&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;\&quot;Because&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;\&quot;Certainly,\&quot;&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;\&quot;&apos;Miss&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;\&quot;Alas!&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;\&quot;Ay,&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;\&quot;Can&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;\&quot;&apos;I&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;\&quot;Agreed!\&quot;&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;\&quot;Arthur!&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;\&quot;But&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;\&quot;Denn&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;\&quot;&apos;Wilhelmina&apos;--I&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;\&quot;And,&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;\&quot;Besides,&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;\&quot;Come,\&quot;&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;\&quot;&apos;Ow&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;\&quot;Amen\&quot;&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;\&quot;Because,&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;\&quot;Certainly.\&quot;&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;\&quot;&apos;Ittin&apos;&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;\&quot;Ah&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;\&quot;ARTHUR.\&quot;&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;\&quot;But,&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;\&quot;Destroyed?\&quot;&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>word cloud1</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='part-00000' name='federated.0pjnk6u1epq1rg14ba3pq107lwzg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pjnk6u1epq1rg14ba3pq107lwzg'>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='Count' name='[cnt:F1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[cnt:F1:qk]' included-values='all' />
+          <filter class='categorical' column='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:F1:nk]' />
+              <groupfilter function='union'>
+                <groupfilter from='&quot;\&quot;&apos;Lucy,&quot;' function='range' level='[none:F1:nk]' to='&quot;\&quot;Destroyed?\&quot;&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;\&quot;DRACULA.\&quot;&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]</column>
+            <column>[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[cnt:F1:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-width' scope='cols' value='2' />
+            <format attr='border-style' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='2' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' />
+              <size column='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[cnt:F1:qk]' />
+              <text column='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{750D63DB-6330-453B-9DD3-FA52524A95D1}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>word cloud 2</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='part-00000' name='federated.0pjnk6u1epq1rg14ba3pq107lwzg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pjnk6u1epq1rg14ba3pq107lwzg'>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <size column='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' />
+              <color column='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E6EDA8AF-140B-4F41-B856-CFF2FB49AFF2}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Dic Assignment</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='part-00000' name='federated.0pjnk6u1epq1rg14ba3pq107lwzg' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0pjnk6u1epq1rg14ba3pq107lwzg'>
+        <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+        <column-instance column='[F1]' derivation='Count' name='[cnt:F1:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='12' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='5' type='layout-basic' w='82400' x='800' y='1000'>
+                <zone h='98000' id='9' name='Sheet 2' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='98000' id='14' name='Sheet 1' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type='layout-flow' w='16000' x='83200' y='1000'>
+                <zone h='31125' id='10' name='Sheet 2' pane-specification-id='0' param='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' type='size' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='26125' id='15' name='Sheet 1' pane-specification-id='0' param='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' type='color' w='16000' x='83200' y='32125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9625' id='19' name='Sheet 1' param='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[cnt:F1:qk]' type='filter' values='database' w='16000' x='83200' y='58250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='31125' id='20' name='Sheet 1' param='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' type='filter' values='database' w='16000' x='83200' y='67875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone friendly-name='Word2' h='6500' id='16' type='dashboard-object' w='16400' x='6100' y='46375'>
+          <button action='tabdoc:goto-sheet window-id=&quot;{7B5C7C74-F85F-4FEF-A760-F80313DCB446}&quot;'>
+            <button-visual-state>
+              <tooltip-text>Word Cloud</tooltip-text>
+            </button-visual-state>
+          </button>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>Dic Assignment</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='17' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='18' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='Sheet 2' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='10' name='Sheet 2' pane-specification-id='0' param='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' type='size' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='14' is-fixed='true' name='Sheet 1' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='15' name='Sheet 1' pane-specification-id='0' param='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' type='color' w='16000' x='83200' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone friendly-name='Word2' h='6500' id='16' type='dashboard-object' w='16400' x='6100' y='46375'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{7B5C7C74-F85F-4FEF-A760-F80313DCB446}&quot;'>
+                    <button-visual-state>
+                      <tooltip-text>Word Cloud</tooltip-text>
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{66A2B80B-0FD6-4E36-B920-227C80BF1DC7}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' type='size' />
+            <card pane-specification-id='0' param='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B1266E2D-06E4-4CAD-8A50-284E5B04C342}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+        <viewpoint name='Sheet 2' />
+      </viewpoints>
+      <active id='15' />
+      <device-preview visible='true' />
+      <simple-id uuid='{839457BD-8E2F-4D11-AC30-9EC7A3471F2C}' />
+    </window>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0pjnk6u1epq1rg14ba3pq107lwzg].[none:F1:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7B5C7C74-F85F-4FEF-A760-F80313DCB446}' />
+    </window>
+  </windows>
+</workbook>
