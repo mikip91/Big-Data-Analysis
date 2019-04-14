@@ -47,4 +47,4 @@ ProcessedTweets <- data.frame(gsub("RT","", ProcessedTweets))
 ProcessedTweets <- data.frame(gsub("[^[:alnum:]]", " ", ProcessedTweets$gsub..RT.......ProcessedTweets.))
 cols <- c("text")
 colnames(ProcessedTweets) <- cols
-write.table(ProcessedTweets$text, file = "D:/MS/2ndSem/DIC/Lab2/twitterData/tweets.txt", sep="\n\n\t", col.names = F, row.names = F, quote = F) 
+write.table(ProcessedTweets$text, file = "D:/MS/2ndSem/DIC/Lab2/twitterData/tweets.txt", sep="\n\t", col.names = F, row.names = F, quote = F) 
