@@ -5,7 +5,7 @@ stop_words=set(stopwords.words("english"))
 symbol_list=['.',',','?','!', '@', '"', "'", '<', '>', '/', '[', ']','{','}','(',')',':',';', '…', '”', '#','$','%','^','&','*','-','+','_','=']
 stop_words1=["said", "also", "like", "could", "also", "would" ,"us", "want", "via", "amp"]
 
-filename = "D:\\MS\\2ndSem\\DIC\\Lab2\\twitterData\\trump.txt"
+filename = "D:\\MS\\2ndSem\\DIC\\Lab2\\newsData\\trump.txt"
 final_list=[]
 with open(filename) as f:
     for line in f:
@@ -17,10 +17,10 @@ with open(filename) as f:
                 if not w in stop_words and len(w) >= 3 and not w in symbol_list and not w in stop_words1:
                     wordsFiltered.append(w)
 
-            with open('D:\MS\\2ndSem\DIC\Lab2\\twitterData\\trump_filtered.txt', 'a') as val:
+            with open('D:\MS\\2ndSem\DIC\Lab2\\newsData\\trump_filtered.txt', 'a') as val:
                 for item in wordsFiltered:
                     val.write(item+" ")
-                val.write("\n" )
+                val.write("\n\n" )
 
     # csvreader = csv.reader(f)
     # for line in csvreader:
