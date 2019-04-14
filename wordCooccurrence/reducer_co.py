@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""reducer.py"""
+"""reducer_cooccurrence.py"""
 
 from operator import itemgetter
 import sys

@@ -2,7 +2,7 @@ install.packages('Rcrawler')
 library(Rcrawler)
 library(stringr)
 # Reading articles
-CollectedArticles <- read.csv(file="D:/MS/2ndSem/DIC/Lab2/newsData/elections.csv", header=TRUE, sep=",")
+CollectedArticles <- read.csv(file="D:/MS/2ndSem/DIC/Lab2/newsData/administration.csv", header=TRUE, sep=",")
 CollectedArticles <- subset(CollectedArticles, select = -c(X))
 CollectedUrls = CollectedArticles$web_url
 
@@ -27,4 +27,4 @@ content <- data.frame(content)
 cols <- c("text")
 colnames(content) <- cols
 content <-data.frame(content)
-write.table(content$text, file = "D:/MS/2ndSem/DIC/Lab2/newsData/election.txt", sep="\n\t", col.names = F, row.names = F, quote = F) 
+write.table(content$text, file = "D:/MS/2ndSem/DIC/Lab2/newsData/administration.txt", sep="\n\t", col.names = F, row.names = F, quote = F) 
