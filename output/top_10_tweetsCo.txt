@@ -1,0 +1,10 @@
+trump|trump	2677
+president|trump	1655
+donald|trump	1479
+realdonaldtrump|trump	1292
+vote|elections	1113
+trump|people	1053
+people|trump	972
+elections|vote	935
+ever|ever	925
+ilhan|omar	830
