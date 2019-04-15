@@ -1,28 +1,15 @@
-# !/usr/bin/env python
-
+#!/usr/bin/env python
 import sys
-main_list = []
-text=["Miki","is", "a" , "nice", "girl" "Miki","is", "a" , "nice", "girl"]
-for line in text:
+
+for line in sys.stdin:
     # remove leading and trailing whitespace
     line = line.lower()
-
     line = line.strip()
-
     # Initializing Word List
-    pair_word_list = line.split()
+    words = line.split()
 
-    # Storing co-occuring words in list
-    for i in range(len(pair_word_list) - 1):
-        temp = pair_word_list[i] + " " + pair_word_list[i + 1]
-        main_list.append(temp)
-
-    # Sorting the list
-    main_list.sort()
-
-
-# Printing the co-occurring words
-for i in range(len(main_list)):
-    print("%s\t%s" % (main_list[i], 1))
-
-
+    for i in range(len(words) - 1):
+        if not (words[i][0].isdigit()):
+            for j in range(i + 1, len(words)):
+                if not (words[j][0].isdigit()):
+                    print ("%s|%s\t%s" % (words[i], words[j], 1))
