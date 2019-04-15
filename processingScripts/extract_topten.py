@@ -4,7 +4,7 @@ data=pd.read_csv("D:\\MS\\2ndSem\\DIC\\\Lab2\\output\\twCount.txt", sep='\t', en
 data.columns=['Word', 'Count']
 data=data.sort_values('Count', ascending=False)
 print(data)
-top_ten_data=data[0:50]
+top_ten_data=data[0:15]
 top_ten_data.reset_index(drop = True, inplace = True)
 top_ten_data.to_csv("D:\\MS\\2ndSem\\DIC\\\Lab2\\output\\top_10_tweets.txt",sep='\t',header=False, index=False)
 
@@ -14,6 +14,6 @@ data=pd.read_csv("D:\\MS\\2ndSem\\DIC\\\Lab2\\output\\nyCount.txt", sep='\t', en
 data.columns=['Word', 'Count']
 data=data.sort_values('Count', ascending=False)
 print(data)
-top_ten_data=data[0:50]
+top_ten_data=data[0:15]
 top_ten_data.reset_index(drop = True, inplace = True)
 top_ten_data.to_csv("D:\\MS\\2ndSem\\DIC\\\Lab2\\output\\top_10_ny.txt",sep='\t',header=False, index=False)
