@@ -2,6 +2,7 @@
 import sys
 
 for line in sys.stdin:
+    wordlist= ["trump","president", "government","party","people","election","state", "house", "political", "years"]
     # remove leading and trailing whitespace
     line = line.lower()
     line = line.strip()
@@ -9,7 +10,7 @@ for line in sys.stdin:
     words = line.split()
 
     for i in range(len(words) - 1):
-        if not (words[i][0].isdigit()):
+        if words[i] in wordlist and not (words[i][0].isdigit()):
             for j in range(i + 1, len(words)):
-                if not (words[j][0].isdigit()):
+                if not (words[j][0].isdigit()) and not words[i]==words[j]:
                     print ("%s|%s\t%s" % (words[i], words[j], 1))

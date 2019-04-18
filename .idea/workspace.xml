@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="15e7d24f-6018-4458-8f5a-e023555536a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopCode/wordcooccurrence/mapper_co.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopCode/wordcooccurrence/mapper_co.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopCode/wordcount/mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopCode/wordcount/mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/nyCount.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/nyCount.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/twCount.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/twCount.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processingScripts/extract_topten.py" beforeDir="false" afterPath="$PROJECT_DIR$/processingScripts/extract_topten.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawlData/text.warc.wet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawlData/text2.warc.wet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processingScripts/crawl_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/processingScripts/crawl_preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/processingScripts/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/processingScripts/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterData/twitterDataOutput/elections_filtered.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterData/twitterDataOutput/politics_filtered.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterData/twitterDataOutput/trump_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/twitterData/twitterDataOutput/trump_filtered.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,56 +18,50 @@
     <session id="2006173346">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="36" />
+          <entry key="py" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="36" />
+          <entry key="Python" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="12" />
           <entry key="dummy" value="4" />
-          <entry key="py" value="1858" />
+          <entry key="py" value="3369" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="1870" />
+          <entry key="Python" value="3381" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processingScripts/extract_topten.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence/mapper_co.py">
+        <entry file="file://$PROJECT_DIR$/processingScripts/crawl_preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+            <state relative-caret-position="17">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+              <folding>
+                <element signature="e#22#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +78,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ps</find>
+      <find>politics</find>
+      <find>json</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,18 +95,22 @@
         <option value="$PROJECT_DIR$/wordcount/reducer.py" />
         <option value="$PROJECT_DIR$/wordcount/preprocessing.py" />
         <option value="$PROJECT_DIR$/wordcount/extract_topten.py" />
-        <option value="$PROJECT_DIR$/processingScripts/preprocessing.py" />
         <option value="$PROJECT_DIR$/hadoopCode/wordcount/mapper.py" />
-        <option value="$PROJECT_DIR$/hadoopCode/wordcooccurrence/mapper_co.py" />
         <option value="$PROJECT_DIR$/processingScripts/extract_topten.py" />
+        <option value="$PROJECT_DIR$/hadoopCode/wordcount/reducer.py" />
+        <option value="$PROJECT_DIR$/hadoopCode/wordcooccurrence/mapper_co.py" />
+        <option value="$PROJECT_DIR$/dataCollectionScripts/cra.py" />
+        <option value="$PROJECT_DIR$/dataCollectionScripts/crawler.py" />
+        <option value="$PROJECT_DIR$/processingScripts/preprocessing.py" />
+        <option value="$PROJECT_DIR$/processingScripts/crawl_preprocessing.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
-    <option name="width" value="1890" />
-    <option name="height" value="930" />
+    <option name="x" value="-41" />
+    <option name="y" value="150" />
+    <option name="width" value="1617" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -129,6 +124,16 @@
             <path>
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="crawlData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="dataCollectionScripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
@@ -160,7 +165,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MS\2ndSem\DIC\Lab2\processingScripts" />
       <recent name="D:\MS\2ndSem\DIC\Lab2\wordcount" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MS\2ndSem\DIC\Lab2\dataCollectionScripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,7 +184,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.extract_topten">
+  <component name="RunManager" selected="Python.crawl_preprocessing">
+    <configuration name="cra" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataCollectionScripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataCollectionScripts/cra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crawl_preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/processingScripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processingScripts/crawl_preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataCollectionScripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataCollectionScripts/crawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="extract_topten" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lab2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,27 +261,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processingScripts/extract_topten.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mapper_co" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Lab2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hadoopCode/wordcooccurrence" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hadoopCode/wordcooccurrence/mapper_co.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,12 +293,16 @@
     <list>
       <item itemvalue="Python.preprocessing" />
       <item itemvalue="Python.extract_topten" />
-      <item itemvalue="Python.mapper_co" />
+      <item itemvalue="Python.crawler" />
+      <item itemvalue="Python.cra" />
+      <item itemvalue="Python.crawl_preprocessing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crawl_preprocessing" />
+        <item itemvalue="Python.crawler" />
+        <item itemvalue="Python.cra" />
         <item itemvalue="Python.extract_topten" />
-        <item itemvalue="Python.mapper_co" />
         <item itemvalue="Python.preprocessing" />
       </list>
     </recent_temporary>
@@ -275,20 +330,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24960254" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20985691" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.40035588" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007949" side_tool="true" weight="0.28291816" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3291815" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3291815" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49920508" visible="true" weight="0.28291816" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.30071175" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49920508" visible="true" weight="0.27402136" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.42882562" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3291815" />
@@ -314,16 +369,28 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="(words[0][0].isdigit())" language="Python" />
-        <watch expression="words[0].isdigit()" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>lemmatizer.lemmatize(w)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>detect(text.decode(&quot;utf-8&quot;));</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>text.decode(&quot;utf-8&quot;);</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>(words[0][0].isdigit())</expression-string>
         <language-id>Python</language-id>
@@ -359,21 +426,6 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>words[1].isdigit()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>words[1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>words[1];</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="setValue">
       <expression>
@@ -394,13 +446,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../1stSem/Anaconda/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_breakpoints.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -415,31 +460,80 @@
     <entry file="file://$PROJECT_DIR$/wordcount/extract_topten.py" />
     <entry file="file://$PROJECT_DIR$/wordcount/mapper.py" />
     <entry file="file://$PROJECT_DIR$/wordCooccurrence/reducer_co.py" />
+    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence/reducer_co.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcount/reducer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processingScripts/extract_topten.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCollectionScripts/CommonCrawlCorrect.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence/mapper_co.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCollectionScripts/cra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="59" column="57" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCollectionScripts/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../1stSem/Anaconda/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hadoopCode/wordcount/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="224">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processingScripts/preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="267">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#22#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processingScripts/extract_topten.py">
+    <entry file="file://$PROJECT_DIR$/processingScripts/crawl_preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence/mapper_co.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        <state relative-caret-position="17">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="e#22#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
