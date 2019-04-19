@@ -13,4 +13,10 @@ for line in sys.stdin:
         if words[i] in wordlist and not (words[i][0].isdigit()):
             for j in range(i + 1, len(words)):
                 if not (words[j][0].isdigit()) and not words[i]==words[j]:
+                    if (words[i] < words[j]):
+                        word1 = words[i]
+                        word2 = words[j]
+                    else:
+                        word1 = words[j]
+                        word2 = words[i]
                     print ("%s|%s\t%s" % (words[i], words[j], 1))
