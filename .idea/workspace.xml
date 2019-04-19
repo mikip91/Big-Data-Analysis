@@ -3,32 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="15e7d24f-6018-4458-8f5a-e023555536a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlData/crawl.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlData/crawl2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlData/crawl_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/crawlData/crawl_filtered.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollectionScripts/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollectionScripts/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopCode/wordcooccurrence/mapper_co.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_tweets/mapper_tweets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopCode/wordcooccurrence/reducer_co.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_tweets/reducer_tweets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsData/newsDataOutput/administration_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newsData/newsDataOutput/administration_filtered.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsData/newsDataOutput/government_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newsData/newsDataOutput/government_filtered.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsData/newsDataOutput/politics_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newsData/newsDataOutput/politics_filtered.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsData/newsDataOutput/trump_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newsData/newsDataOutput/trump_filtered.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsData/newsDataOutput/voting_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newsData/newsDataOutput/voting_filtered.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/nyCount.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/part-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/top_10_ny.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/top_10_tweets.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/top_10_tweetsCo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/top_50_ny.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/top_50_tweets.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/twCount.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_nytimes/mapper_nytimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_nytimes/mapper_nytimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_tweets/mapper_tweets.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_tweets/mapper_tweets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/nyco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/nyco.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/top_10_tweetco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/top_10_tweetco.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/top_50_tweetco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/top_50_tweetco.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/tweetco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/tweetco.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/processingScripts/extract_topten.py" beforeDir="false" afterPath="$PROJECT_DIR$/processingScripts/extract_topten.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processingScripts/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/processingScripts/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterData/NewTweets.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterData/OldTweets.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterData/twitterDataOutput/elections_filtered.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterData/twitterDataOutput/politics_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/twitterData/twitterDataOutput/politics_filtered.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterData/twitterDataOutput/trump_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/twitterData/twitterDataOutput/trump_filtered.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,25 +33,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="78" />
+          <entry key="py" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="78" />
+          <entry key="Python" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="12" />
           <entry key="dummy" value="40" />
-          <entry key="py" value="3614" />
+          <entry key="py" value="3749" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="3626" />
+          <entry key="Python" value="3761" />
         </counts>
       </usages-collector>
     </session>
@@ -79,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/processingScripts/preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="169">
               <caret line="28" column="84" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
               <folding>
                 <element signature="e#22#33#0" expanded="true" />
@@ -91,17 +73,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_nytimes/mapper_nytimes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="20" column="40" selection-start-line="15" selection-start-column="20" selection-end-line="20" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_tweets/mapper_tweets.py">
+        <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="113" selection-start-line="4" selection-start-column="113" selection-end-line="4" selection-end-column="113" />
+            <state relative-caret-position="237">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -109,8 +91,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/processingScripts/extract_topten.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataCollectionScripts/crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,9 +145,9 @@
         <option value="$PROJECT_DIR$/processingScripts/crawl_preprocessing.py" />
         <option value="$PROJECT_DIR$/dataCollectionScripts/crawler.py" />
         <option value="$PROJECT_DIR$/processingScripts/preprocessing.py" />
-        <option value="$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py" />
         <option value="$PROJECT_DIR$/hadoopCode/wordcooccurrence_nytimes/mapper_nytimes.py" />
         <option value="$PROJECT_DIR$/hadoopCode/wordcooccurrence_tweets/mapper_tweets.py" />
+        <option value="$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py" />
         <option value="$PROJECT_DIR$/processingScripts/extract_topten.py" />
       </list>
     </option>
@@ -176,6 +170,11 @@
             <path>
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="dataCollectionScripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +382,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20985691" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.20985691" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.40035588" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007949" side_tool="true" weight="0.28291816" />
@@ -400,6 +399,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20985691" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.40035588" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007949" side_tool="true" weight="0.28291816" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.3291815" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3291815" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49920508" visible="true" weight="0.34163702" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.42882562" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3291815" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -544,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/processingScripts/crawl_preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        <state relative-caret-position="221">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="e#22#33#0" expanded="true" />
           </folding>
@@ -554,31 +572,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataCollectionScripts/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="17">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py">
+    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_tweets/mapper_tweets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_nytimes/mapper_nytimes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="17">
+          <caret line="7" selection-start-line="7" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processingScripts/preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="169">
           <caret line="28" column="84" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
           <folding>
             <element signature="e#22#33#0" expanded="true" />
@@ -586,17 +597,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_tweets/mapper_tweets.py">
+    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/reducer_crawl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_nytimes/reducer_nytimes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="113" selection-start-line="4" selection-start-column="113" selection-end-line="4" selection-end-column="113" />
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_nytimes/mapper_nytimes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="40" selection-start-line="15" selection-start-column="20" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processingScripts/extract_topten.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
         </state>
       </provider>
     </entry>
