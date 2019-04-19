@@ -11,8 +11,8 @@ symbol_list=['.',',','?','!', '@', '"', "'", '<', '>', '/', '[', ']','{','}','('
 stop_words1=["said", "also", "like", "could", "also", "would" ,"us", "want", "via", "amp", "the", "year", "last","time", "first", "former",
              "this", "one", "know", "right", "time", "think", "they", "dont","omar", "need", "going", "even", "make"]
 
-filename = "D:\\MS\\2ndSem\\DIC\\Lab2\\newsData\\newsDataOutput\\voting.txt"
-#filename = "D:\\MS\\2ndSem\\DIC\\Lab2\\twitterData\\twitterDataOutput\\politics.txt"
+#filename = "D:\\MS\\2ndSem\\DIC\\Lab2\\newsData\\newsDataOutput\\trump.txt"
+filename = "D:\\MS\\2ndSem\\DIC\\Lab2\\twitterData\\twitterDataOutput\\trump.txt"
 final_list=[]
 with open(filename) as f:
     for line in f:
@@ -25,8 +25,8 @@ with open(filename) as f:
                 if not w in stop_words and len(w) > 3 and not w in symbol_list and not w in stop_words1:
                     wordsFiltered.append(w)
 
-            with open('D:\MS\\2ndSem\DIC\Lab2\\newsData\\newsDataOutput\\voting_filtered.txt', 'a') as val:
-            #with open('D:\MS\\2ndSem\DIC\Lab2\\twitterData\\twitterDataOutput\\politics_filtered.txt', 'a') as val:
+            #with open('D:\MS\\2ndSem\DIC\Lab2\\newsData\\newsDataOutput\\trump_filtered.txt', 'a') as val:
+            with open('D:\MS\\2ndSem\DIC\Lab2\\twitterData\\twitterDataOutput\\trump_filtered.txt', 'a') as val:
                 for item in wordsFiltered:
                     val.write(item+" ")
                 val.write("\n\n")
