@@ -1,0 +1,10 @@
+trump	2803
+president	1917
+party	1623
+state	1605
+election	1533
+government	1279
+people	1039
+house	1008
+vote	989
+administration	978

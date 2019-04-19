@@ -26,8 +26,7 @@ for record in records:
             if (count<520 and detect(text.decode("utf-8")) == 'en'):
                 if keywords in text.decode("utf-8").lower():
                     newfile.write(str(text, 'utf-8'))
-                    newfile.write('\n  '
-                                  '')
+                    newfile.write('\n\n')
                     count = count+1
                     print(count)
         except Exception:
