@@ -2,7 +2,9 @@
 import sys
 
 for line in sys.stdin:
-    wordlist= ["","", "","","","","", "", "", ""]
+    stop_words = ["african", "work", "woman", "student", "series", "workshop", "event", "engine","upon"
+                  "uncle","brake","component","gear","zuma","rickshaw"]
+    wordlist= ["news","trump", "world","state","people","american","health", "policy", "system", "house"]
     # remove leading and trailing whitespace
     line = line.lower()
     line = line.strip()
@@ -12,7 +14,8 @@ for line in sys.stdin:
     for i in range(len(words) - 1):
         if words[i] in wordlist and not (words[i][0].isdigit()):
             for j in range(i + 1, len(words)):
-                if not (words[j][0].isdigit()) and not words[i]==words[j]:
+                if not (words[j][0].isdigit()) and words[j] not in stop_words  and  words[i] not in stop_words\
+                    and not words[i]==words[j]:
                     if (words[i] < words[j]):
                         word1 = words[i]
                         word2 = words[j]

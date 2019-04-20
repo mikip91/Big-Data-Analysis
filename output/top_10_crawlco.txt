@@ -1,0 +1,10 @@
+news|segment	98620
+house|upon	14138
+system|assembly	14034
+news|state	11636
+house|uncle	11633
+state|news	11329
+system|electric	10615
+system|diesel	10460
+system|electrical	10325
+system|fuel	9961
