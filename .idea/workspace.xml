@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15e7d24f-6018-4458-8f5a-e023555536a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlData/crawl2_filtered.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlData/crawl_filtered.txt" beforeDir="false" afterPath="$PROJECT_DIR$/crawlData/crawl_filtered.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopCode/wordcount/mapper_crawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopCode/wordcount/mapperwc_crawl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/top_10_crawlword.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/top_10_crawlword.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/top_200_crawlword.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/top_200_crawlword.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processingScripts/commoncrawlpre.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processingScripts/crawl_preprocessing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processingScripts/extract_topten.py" beforeDir="false" afterPath="$PROJECT_DIR$/processingScripts/extract_topten.py" afterDir="false" />
-    </list>
+    <list default="true" id="15e7d24f-6018-4458-8f5a-e023555536a6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +12,7 @@
     <session id="2006173346">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -71,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            <state relative-caret-position="272">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -395,7 +384,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20985691" />
@@ -406,7 +394,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3291815" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49920508" visible="true" weight="0.34163702" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49920508" weight="0.34163702" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.42882562" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -631,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_nytimes/mapper_nytimes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="40" selection-start-line="15" selection-start-column="20" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hadoopCode/wordcount/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -662,10 +643,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_nytimes/mapper_nytimes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="15" selection-start-column="20" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hadoopCode/wordcooccurrence_crawl/mapper_crawl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        <state relative-caret-position="272">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
